@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-07 17:14:57
-LastEditTime: 2021-12-08 11:37:40
+LastEditTime: 2021-12-08 11:55:08
 '''
 
 from selenium import webdriver
@@ -31,7 +31,7 @@ class TestUI(unittest.TestCase):
         driver.find_element(By.XPATH,'//input[@placeholder="请输入用户名"]').send_keys('admin')
         driver.find_element(By.XPATH,'//input[@placeholder="请输入密码"]').send_keys('1qaz!QAZ')
         driver.find_element(By.XPATH,'//span[text()=" 登  录 "]').click()
-        driver.implicitly_wait(3)
+        driver.implicitly_wait(5)
         driver.find_element(By.XPATH,'//span[text()="电站管理"]').click()
         
 
