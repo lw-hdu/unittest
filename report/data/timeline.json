@@ -4,57 +4,45 @@
   "children" : [ {
     "name" : "XA342458",
     "children" : [ {
-      "name" : "15620-MainThread",
+      "name" : "21204-MainThread",
       "children" : [ {
-        "name" : "test_bigscreen",
-        "uid" : "7950c7121f57518c",
-        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
+        "name" : "test_login",
+        "uid" : "3a98547eb5967e4a",
+        "parentUid" : "a10d91b9bd537f149e0d715a62ef828c",
         "status" : "passed",
         "time" : {
-          "start" : 1639107016821,
-          "stop" : 1639107020037,
-          "duration" : 3216
+          "start" : 1639118106671,
+          "stop" : 1639118106848,
+          "duration" : 177
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_select_power",
-        "uid" : "9fa0f9cfeb328bd5",
-        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
+        "uid" : "8ab24f93901f7be9",
+        "parentUid" : "a10d91b9bd537f149e0d715a62ef828c",
         "status" : "passed",
         "time" : {
-          "start" : 1639107047889,
-          "stop" : 1639107053260,
-          "duration" : 5371
+          "start" : 1639118120427,
+          "stop" : 1639118125821,
+          "duration" : 5394
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_01_login",
-        "uid" : "4d4d45aa7d10031",
-        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
+        "name" : "test_bigscreen",
+        "uid" : "34b28ed52d794e38",
+        "parentUid" : "a10d91b9bd537f149e0d715a62ef828c",
         "status" : "passed",
         "time" : {
-          "start" : 1639107033823,
-          "stop" : 1639107034069,
-          "duration" : 246
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_power",
-        "uid" : "4b45c508b64765ca",
-        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639106994441,
-          "stop" : 1639107010433,
-          "duration" : 15992
+          "start" : 1639118089918,
+          "stop" : 1639118093145,
+          "duration" : 3227
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1e08a61877e5c29ca7fa596b7b0a84a3"
+      "uid" : "a10d91b9bd537f149e0d715a62ef828c"
     } ],
     "uid" : "b5e5b6ef3b2734664bd21635ea8e8a75"
   } ]

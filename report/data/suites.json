@@ -2,26 +2,6 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "test_ui",
-    "children" : [ {
-      "name" : "TestUI",
-      "children" : [ {
-        "name" : "test_power",
-        "uid" : "4b45c508b64765ca",
-        "parentUid" : "a7e481a6a7c14951f854477c8f8537cb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639106994441,
-          "stop" : 1639107010433,
-          "duration" : 15992
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a7e481a6a7c14951f854477c8f8537cb"
-    } ],
-    "uid" : "25619dbb5cb2129bfeb00d7ad27c59d2"
-  }, {
     "name" : "testcase",
     "children" : [ {
       "name" : "test_big_screen",
@@ -29,13 +9,13 @@
         "name" : "TestBigScreen",
         "children" : [ {
           "name" : "test_bigscreen",
-          "uid" : "7950c7121f57518c",
+          "uid" : "34b28ed52d794e38",
           "parentUid" : "95de91d122e4df4723fae0c104389808",
           "status" : "passed",
           "time" : {
-            "start" : 1639107016821,
-            "stop" : 1639107020037,
-            "duration" : 3216
+            "start" : 1639118089918,
+            "stop" : 1639118093145,
+            "duration" : 3227
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -48,14 +28,14 @@
       "children" : [ {
         "name" : "TestLogin",
         "children" : [ {
-          "name" : "test_01_login",
-          "uid" : "4d4d45aa7d10031",
+          "name" : "test_login",
+          "uid" : "3a98547eb5967e4a",
           "parentUid" : "a78be7069c22cb24448c5bc447c4aec6",
           "status" : "passed",
           "time" : {
-            "start" : 1639107033823,
-            "stop" : 1639107034069,
-            "duration" : 246
+            "start" : 1639118106671,
+            "stop" : 1639118106848,
+            "duration" : 177
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -69,13 +49,13 @@
         "name" : "TestPowerManage",
         "children" : [ {
           "name" : "test_select_power",
-          "uid" : "9fa0f9cfeb328bd5",
+          "uid" : "8ab24f93901f7be9",
           "parentUid" : "69ff02037b3faaba3ebb3c1ff244dfba",
           "status" : "passed",
           "time" : {
-            "start" : 1639107047889,
-            "stop" : 1639107053260,
-            "duration" : 5371
+            "start" : 1639118120427,
+            "stop" : 1639118125821,
+            "duration" : 5394
           },
           "flaky" : false,
           "parameters" : [ ]

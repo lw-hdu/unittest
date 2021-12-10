@@ -1,40 +1,30 @@
 [ {
-  "uid" : "7950c7121f57518c",
-  "name" : "test_bigscreen",
+  "uid" : "3a98547eb5967e4a",
+  "name" : "test_login",
   "time" : {
-    "start" : 1639107016821,
-    "stop" : 1639107020037,
-    "duration" : 3216
+    "start" : 1639118106671,
+    "stop" : 1639118106848,
+    "duration" : 177
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9fa0f9cfeb328bd5",
+  "uid" : "8ab24f93901f7be9",
   "name" : "test_select_power",
   "time" : {
-    "start" : 1639107047889,
-    "stop" : 1639107053260,
-    "duration" : 5371
+    "start" : 1639118120427,
+    "stop" : 1639118125821,
+    "duration" : 5394
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4d4d45aa7d10031",
-  "name" : "test_01_login",
+  "uid" : "34b28ed52d794e38",
+  "name" : "test_bigscreen",
   "time" : {
-    "start" : 1639107033823,
-    "stop" : 1639107034069,
-    "duration" : 246
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b45c508b64765ca",
-  "name" : "test_power",
-  "time" : {
-    "start" : 1639106994441,
-    "stop" : 1639107010433,
-    "duration" : 15992
+    "start" : 1639118089918,
+    "stop" : 1639118093145,
+    "duration" : 3227
   },
   "status" : "passed",
   "severity" : "normal"

@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2021-12-09 16:28:55
+LastEditTime: 2021-12-10 14:23:44
 '''
 import pytest
 # from ddt import ddt, data, unpack
@@ -17,7 +17,7 @@ class TestLogin(BaseUtil):
     # @data(*ExcelUtil().read_excel())
     # @unpack
     # @pytest.mark.parametrize("index,username,password",ExcelUtil().read_excel())
-    def test_01_login(self):
+    def test_login(self):
         """ 登录 """
         lp = LoginPage(self.driver)
         lp.login()
