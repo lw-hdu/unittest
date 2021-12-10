@@ -1,0 +1,73 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_ui",
+    "children" : [ {
+      "name" : "test_power",
+      "uid" : "4b45c508b64765ca",
+      "parentUid" : "bf2b8a5f15f99055a94a467adaef91cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639106994441,
+        "stop" : 1639107010433,
+        "duration" : 15992
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bf2b8a5f15f99055a94a467adaef91cb"
+  }, {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_big_screen",
+      "children" : [ {
+        "name" : "test_bigscreen",
+        "uid" : "7950c7121f57518c",
+        "parentUid" : "f3ab15fc7d5626589b2aa8221c8e1992",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107016821,
+          "stop" : 1639107020037,
+          "duration" : 3216
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3ab15fc7d5626589b2aa8221c8e1992"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_01_login",
+        "uid" : "4d4d45aa7d10031",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107033823,
+          "stop" : 1639107034069,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc0ea573530a3fefba2a1fc590840070"
+    }, {
+      "name" : "test_power_manage",
+      "children" : [ {
+        "name" : "test_select_power",
+        "uid" : "9fa0f9cfeb328bd5",
+        "parentUid" : "0b7c7fc3e2f722c38864db69a930e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107047889,
+          "stop" : 1639107053260,
+          "duration" : 5371
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b7c7fc3e2f722c38864db69a930e4a2"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}

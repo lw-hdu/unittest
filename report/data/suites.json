@@ -1,0 +1,89 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_ui",
+    "children" : [ {
+      "name" : "TestUI",
+      "children" : [ {
+        "name" : "test_power",
+        "uid" : "4b45c508b64765ca",
+        "parentUid" : "a7e481a6a7c14951f854477c8f8537cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106994441,
+          "stop" : 1639107010433,
+          "duration" : 15992
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7e481a6a7c14951f854477c8f8537cb"
+    } ],
+    "uid" : "25619dbb5cb2129bfeb00d7ad27c59d2"
+  }, {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_big_screen",
+      "children" : [ {
+        "name" : "TestBigScreen",
+        "children" : [ {
+          "name" : "test_bigscreen",
+          "uid" : "7950c7121f57518c",
+          "parentUid" : "95de91d122e4df4723fae0c104389808",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639107016821,
+            "stop" : 1639107020037,
+            "duration" : 3216
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "95de91d122e4df4723fae0c104389808"
+      } ],
+      "uid" : "1fc024bbe18e6e31e3b2c708cce81025"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_01_login",
+          "uid" : "4d4d45aa7d10031",
+          "parentUid" : "a78be7069c22cb24448c5bc447c4aec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639107033823,
+            "stop" : 1639107034069,
+            "duration" : 246
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a78be7069c22cb24448c5bc447c4aec6"
+      } ],
+      "uid" : "0a485542467e5c5c95949e99a701fc6f"
+    }, {
+      "name" : "test_power_manage",
+      "children" : [ {
+        "name" : "TestPowerManage",
+        "children" : [ {
+          "name" : "test_select_power",
+          "uid" : "9fa0f9cfeb328bd5",
+          "parentUid" : "69ff02037b3faaba3ebb3c1ff244dfba",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639107047889,
+            "stop" : 1639107053260,
+            "duration" : 5371
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "69ff02037b3faaba3ebb3c1ff244dfba"
+      } ],
+      "uid" : "c834960863c20fc4bfb9c1b876895f11"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

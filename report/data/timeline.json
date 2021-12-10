@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "XA342458",
+    "children" : [ {
+      "name" : "15620-MainThread",
+      "children" : [ {
+        "name" : "test_bigscreen",
+        "uid" : "7950c7121f57518c",
+        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107016821,
+          "stop" : 1639107020037,
+          "duration" : 3216
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_select_power",
+        "uid" : "9fa0f9cfeb328bd5",
+        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107047889,
+          "stop" : 1639107053260,
+          "duration" : 5371
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01_login",
+        "uid" : "4d4d45aa7d10031",
+        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107033823,
+          "stop" : 1639107034069,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_power",
+        "uid" : "4b45c508b64765ca",
+        "parentUid" : "1e08a61877e5c29ca7fa596b7b0a84a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106994441,
+          "stop" : 1639107010433,
+          "duration" : 15992
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e08a61877e5c29ca7fa596b7b0a84a3"
+    } ],
+    "uid" : "b5e5b6ef3b2734664bd21635ea8e8a75"
+  } ]
+}

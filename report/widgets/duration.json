@@ -1,0 +1,41 @@
+[ {
+  "uid" : "7950c7121f57518c",
+  "name" : "test_bigscreen",
+  "time" : {
+    "start" : 1639107016821,
+    "stop" : 1639107020037,
+    "duration" : 3216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fa0f9cfeb328bd5",
+  "name" : "test_select_power",
+  "time" : {
+    "start" : 1639107047889,
+    "stop" : 1639107053260,
+    "duration" : 5371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d4d45aa7d10031",
+  "name" : "test_01_login",
+  "time" : {
+    "start" : 1639107033823,
+    "stop" : 1639107034069,
+    "duration" : 246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b45c508b64765ca",
+  "name" : "test_power",
+  "time" : {
+    "start" : 1639106994441,
+    "stop" : 1639107010433,
+    "duration" : 15992
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
