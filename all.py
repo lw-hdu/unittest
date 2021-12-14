@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-10 11:28:17
-LastEditTime: 2021-12-10 14:29:07
+LastEditTime: 2021-12-14 10:16:13
 '''
 '''
 Descripttion: 
@@ -29,6 +29,6 @@ if __name__ == '__main__':
     # #通过运行器运行测试用例
     # runner.run(suite)
     #第一步：生成json格式临时文件
-    pytest.main(['-vs','--alluredir','./temp','--clean-alluredir'])
+    pytest.main()
     #第二步：根据json格式临时文件生成allure报告
     os.system("allure generate ./temp -o ./report --clean")

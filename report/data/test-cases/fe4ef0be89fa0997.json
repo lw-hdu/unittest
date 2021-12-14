@@ -1,16 +1,32 @@
 {
-  "uid" : "8ab24f93901f7be9",
+  "uid" : "fe4ef0be89fa0997",
   "name" : "test_select_power",
   "fullName" : "testcase.test_power_manage.TestPowerManage#test_select_power",
   "historyId" : "30ad14f159b930e5f41b01dc32971c1f",
   "time" : {
-    "start" : 1639118120427,
-    "stop" : 1639118125821,
-    "duration" : 5394
+    "start" : 1639448276691,
+    "stop" : 1639448289254,
+    "duration" : 12563
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d60493ffbd82555d",
+      "name" : "log",
+      "source" : "d60493ffbd82555d.txt",
+      "type" : "text/plain",
+      "size" : 13168
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -26,7 +42,7 @@
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "21204-MainThread"
+    "value" : "3404-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -50,6 +66,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8ab24f93901f7be9.json",
+  "source" : "fe4ef0be89fa0997.json",
   "parameterValues" : [ ]
 }

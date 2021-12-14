@@ -2,14 +2,14 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2021-12-09 15:00:36
+LastEditTime: 2021-12-10 16:04:19
 '''
 # -*- coding:utf-8 -*-
 
 from selenium.webdriver.common.by import By
-import sys
-sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\base')
-from base_page import BasePage
+# import sys
+# sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\base')
+from base.base_page import BasePage
 
 
 class LoginPage(BasePage):

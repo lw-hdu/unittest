@@ -2,17 +2,17 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2021-12-10 14:33:36
+LastEditTime: 2021-12-10 16:10:56
 '''
 # -*- coding:utf-8 -*-
 
 import time
 from selenium.webdriver.common.by import By
-import sys
-sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\base')
-from base_page import BasePage
-sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\pageobject')
-from login_page import LoginPage
+# import sys
+# sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\base')
+from base.base_page import BasePage
+# sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\pageobject')
+from pageobject.login_page import LoginPage
 
 
 class PowerManagePage(BasePage):
@@ -33,15 +33,17 @@ class PowerManagePage(BasePage):
         lp = LoginPage(self.driver)
         lp.login()
         time.sleep(3)
-        #查询
+        #根据电站名称查询
         self.click(PowerManagePage.power_manager_loc)
         time.sleep(1)
         self.send_keys(PowerManagePage.select_loc,"空港")
         time.sleep(1)
         self.click(PowerManagePage.button_loc)
-        time.sleep(5)
+        time.sleep(3)
+        #清空查询条件
         self.click(PowerManagePage.reset_loc)
         time.sleep(1)
+        #通过下拉框选择状态查询
         self.click(PowerManagePage.status_loc)
         time.sleep(2)
         self.click(PowerManagePage.alarm_loc)
