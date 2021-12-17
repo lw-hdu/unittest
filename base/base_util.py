@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:32
-LastEditTime: 2021-12-09 15:59:25
+LastEditTime: 2021-12-17 15:28:24
 '''
 # -*- coding:utf-8 -*-
 
@@ -21,6 +21,8 @@ class BaseUtil:
         # driver = self.driver
         # 加载网页
         self.driver.get("http://10.0.10.131/")
+        #页面最大化
+        self.driver.maximize_window()
 
     def teardown(self) -> None:
         time.sleep(3)

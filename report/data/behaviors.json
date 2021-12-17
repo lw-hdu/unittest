@@ -2,38 +2,14 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_bigscreen",
-    "uid" : "4c40549a64a343e1",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639448246325,
-      "stop" : 1639448249587,
-      "duration" : 3262
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_login",
-    "uid" : "4625e91d10cae623",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639448263216,
-      "stop" : 1639448263429,
-      "duration" : 213
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "test_select_power",
-    "uid" : "fe4ef0be89fa0997",
+    "uid" : "71011f900fb1b8e0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1639448276691,
-      "stop" : 1639448289254,
-      "duration" : 12563
+      "start" : 1639726260413,
+      "stop" : 1639726272943,
+      "duration" : 12530
     },
     "flaky" : false,
     "parameters" : [ ]

@@ -4,45 +4,21 @@
   "children" : [ {
     "name" : "XA342458",
     "children" : [ {
-      "name" : "3404-MainThread",
+      "name" : "3256-MainThread",
       "children" : [ {
-        "name" : "test_login",
-        "uid" : "4625e91d10cae623",
-        "parentUid" : "91aafe392feea364a188a4e5b5987a34",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639448263216,
-          "stop" : 1639448263429,
-          "duration" : 213
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_bigscreen",
-        "uid" : "4c40549a64a343e1",
-        "parentUid" : "91aafe392feea364a188a4e5b5987a34",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639448246325,
-          "stop" : 1639448249587,
-          "duration" : 3262
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "test_select_power",
-        "uid" : "fe4ef0be89fa0997",
-        "parentUid" : "91aafe392feea364a188a4e5b5987a34",
+        "uid" : "71011f900fb1b8e0",
+        "parentUid" : "f199e258e6391c91e434aa11f36c7862",
         "status" : "passed",
         "time" : {
-          "start" : 1639448276691,
-          "stop" : 1639448289254,
-          "duration" : 12563
+          "start" : 1639726260413,
+          "stop" : 1639726272943,
+          "duration" : 12530
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "91aafe392feea364a188a4e5b5987a34"
+      "uid" : "f199e258e6391c91e434aa11f36c7862"
     } ],
     "uid" : "b5e5b6ef3b2734664bd21635ea8e8a75"
   } ]

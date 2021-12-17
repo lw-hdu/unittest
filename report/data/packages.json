@@ -2,56 +2,20 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "testcase",
+    "name" : "testcase.test_power_manage",
     "children" : [ {
-      "name" : "test_big_screen",
-      "children" : [ {
-        "name" : "test_bigscreen",
-        "uid" : "4c40549a64a343e1",
-        "parentUid" : "f3ab15fc7d5626589b2aa8221c8e1992",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639448246325,
-          "stop" : 1639448249587,
-          "duration" : 3262
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f3ab15fc7d5626589b2aa8221c8e1992"
-    }, {
-      "name" : "test_login",
-      "children" : [ {
-        "name" : "test_login",
-        "uid" : "4625e91d10cae623",
-        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639448263216,
-          "stop" : 1639448263429,
-          "duration" : 213
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cc0ea573530a3fefba2a1fc590840070"
-    }, {
-      "name" : "test_power_manage",
-      "children" : [ {
-        "name" : "test_select_power",
-        "uid" : "fe4ef0be89fa0997",
-        "parentUid" : "0b7c7fc3e2f722c38864db69a930e4a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639448276691,
-          "stop" : 1639448289254,
-          "duration" : 12563
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0b7c7fc3e2f722c38864db69a930e4a2"
+      "name" : "test_select_power",
+      "uid" : "71011f900fb1b8e0",
+      "parentUid" : "0b7c7fc3e2f722c38864db69a930e4a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639726260413,
+        "stop" : 1639726272943,
+        "duration" : 12530
+      },
+      "flaky" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+    "uid" : "testcase.test_power_manage"
   } ]
 }

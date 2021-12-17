@@ -1,28 +1,25 @@
 {
-  "uid" : "4625e91d10cae623",
-  "name" : "test_login",
-  "fullName" : "testcase.test_login.TestLogin#test_login",
-  "historyId" : "c95a03351e5dd3a8b91d1dc15926164c",
+  "uid" : "71011f900fb1b8e0",
+  "name" : "test_select_power",
+  "fullName" : "testcase.test_power_manage.TestPowerManage#test_select_power",
+  "historyId" : "30ad14f159b930e5f41b01dc32971c1f",
   "time" : {
-    "start" : 1639448263216,
-    "stop" : 1639448263429,
-    "duration" : 213
+    "start" : 1639726260413,
+    "stop" : 1639726272943,
+    "duration" : 12530
   },
-  "description" : " 登录 ",
-  "descriptionHtml" : "<p>登录</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : " 登录 ",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "118c441b2da0abc9",
+      "uid" : "6feeb969b359d773",
       "name" : "log",
-      "source" : "118c441b2da0abc9.txt",
+      "source" : "6feeb969b359d773.txt",
       "type" : "text/plain",
-      "size" : 5325
+      "size" : 13704
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
@@ -36,16 +33,16 @@
     "value" : "testcase"
   }, {
     "name" : "suite",
-    "value" : "test_login"
+    "value" : "test_power_manage"
   }, {
     "name" : "subSuite",
-    "value" : "TestLogin"
+    "value" : "TestPowerManage"
   }, {
     "name" : "host",
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "3404-MainThread"
+    "value" : "3256-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -54,7 +51,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcase.test_login"
+    "value" : "testcase.test_power_manage"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -69,6 +66,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4625e91d10cae623.json",
+  "source" : "71011f900fb1b8e0.json",
   "parameterValues" : [ ]
 }

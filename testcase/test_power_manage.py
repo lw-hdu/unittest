@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2021-12-10 16:05:47
+LastEditTime: 2021-12-14 11:08:14
 '''
 # -*- coding:utf-8 -*-
 
@@ -18,6 +18,3 @@ class TestPowerManage(BaseUtil):
 
         pm = PowerManagePage(self.driver)
         pm.select_power()
-
-
-
